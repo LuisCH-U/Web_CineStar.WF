@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webOmpe_WF", "webOmpe_WF\webOmpe_WF.csproj", "{5A1C9E56-1CA6-4945-93F1-375361729301}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A1C9E56-1CA6-4945-93F1-375361729301}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A1C9E56-1CA6-4945-93F1-375361729301}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A1C9E56-1CA6-4945-93F1-375361729301}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A1C9E56-1CA6-4945-93F1-375361729301}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6F645E5-47F4-44C3-A918-2E1BB6CF3CF7}
+	EndGlobalSection
+EndGlobal

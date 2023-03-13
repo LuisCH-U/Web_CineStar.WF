@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Ompe.master.cs" Inherits="webOmpe_WF.Ompe" %>
+
+<!DOCTYPE html>
+<html>
+    <head runat="server">        
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"  /> 
+        <title>ONPE - Oficina Nacional de Procesos Electorales</title>		 
+        <link href="css/bootstrap.css"       rel="stylesheet" type="text/css" media="screen"/>
+        <link href="css/style.css"       rel="stylesheet" type="text/css" media="screen"/>
+        <asp:ContentPlaceHolder ID="head" runat="server">
+        </asp:ContentPlaceHolder>
+    </head>
+    <body>
+        <header>
+    	<div class="container">
+            <div class="pull-left logo-onpe">
+                <div class="pull-left">
+                    <a href="index.aspx">
+                        <img src="images/onpe-trans.png"/>
+                    </a>
+                </div>               
+                <div class="pull-left">
+                    <h1>PRESENTACIÓN DE RESULTADOS</h1>
+                </div>
+            </div>                    
+            <div class="pull-right logo">
+                <img src="images/eegg2016-trans.png" width="218" height="35">
+            </div>
+		</div>
+    </header>
+        <div class="container">
+            <asp:ContentPlaceHolder ID="menu" runat="server"></asp:ContentPlaceHolder>
+		<!--<img src="images/f-actas.jpg" width="1170" height="248" class="img-responsive mg30top"> -->
+		
+             <form id="form1" runat="server">
+            <div>
+                <asp:ContentPlaceHolder ID="body" runat="server"></asp:ContentPlaceHolder>
+            </div>
+        </form>
+     </div>
+	<footer class="footer-inside">
+        <div class="container">
+            <div class="row">
+               <div class="col-md-12 direc01">
+                   <span>CONTÁCTENOS</span>
+                   <p>Jr. Washington 1894, Cercado de Lima </p>
+                   <p>Correo electrónico: <a href="#">informes@onpe.gob.pe</a></p>
+                   <p>Central Telefónica: 417 - 0630 / Lunes a Viernes 08:30 - 16:30 hrs</p>
+               </div>
+            </div>
+        </div>
+    </footer>
+        
+    </body>
+</html>
